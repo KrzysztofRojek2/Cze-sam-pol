@@ -1,0 +1,34 @@
+.admin-transaction-object {
+    margin: 3rem;
+}
+.finalized-transaction__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-top: 1px solid var(--dark-gray);
+}
+
+.finalized-transaction__item__name-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    width: 300px;
+}
+
+.finalized-transaction__item__name-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 1rem;
+}
+
+.transaction__item__full-price {
+    width: 100px;
+}
+.transaction_info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

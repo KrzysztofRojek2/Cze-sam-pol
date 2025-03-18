@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,100;1,200&display=swap');
+
+:root {
+    --secondary-color: #336699;
+    --primary-color: white;
+    --light-gray: rgb(242, 241, 241);
+    --dark-gray: rgb(194, 194, 194);
+    --admin-primary: rgb(29, 34, 46);
+    --admin-secondary: rgb(34, 41, 57);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#root {
+  margin: 0;
+  padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-padding {
+    padding: 6rem 8rem;
+}
+
+.bolder {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.user-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: fit-content;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: white;
+    border: 1px solid rgb(220, 220, 220);
+    box-shadow: rgba(173, 173, 173, 0.2) 0px 0px 4px 4px;
+    flex: 1;
+}
+
+.admin-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: fit-content;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: var(--admin-secondary);
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 4px 4px;
+    flex: 1;
+}

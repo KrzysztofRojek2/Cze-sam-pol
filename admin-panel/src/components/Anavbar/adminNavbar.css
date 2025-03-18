@@ -1,0 +1,22 @@
+.admin-navbar {
+    width: 100%;
+    height: 3.5rem;
+    /* background-color: white; */
+    background-color: rgb(29, 34, 46);
+    box-shadow: 0 5px 10px #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 3rem;
+    color: rgb(230, 230, 230);
+}
+.power-off-icon {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.power-off-icon:hover {
+    transform: scale(1.2);
+    color: red;
+}
+  

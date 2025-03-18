@@ -1,0 +1,57 @@
+
+
+.finalized-transaction {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    /* border: 1px solid black; */
+}
+
+.transaction__meta-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.transaction__product-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(124, 124, 124);
+    padding: 1rem;
+}
+
+.transaction__product-info :nth-child(2) {
+    margin-left: 9rem; 
+}
+
+.transaction__full-price {
+    align-self: flex-end;
+    margin-top: 1rem;
+}
+
+.meta-info {
+    font-size: 1.2rem;
+}
+
+/* adminowe */
+
+.admin__transaction {
+    background-color:rgb(34, 41, 57);
+    color: white;
+}
+
+.admin-transaction__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+/* adminowe */
+
+.admin-transaction__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-top: 1px solid black;
+}

@@ -1,0 +1,47 @@
+.admin__reports {
+    padding: 20px;
+    color: white;
+}
+
+.reports-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.report-card {
+    background-color: #1f1f2e;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.report-card h3 {
+    margin: 0 0 10px 0;
+}
+
+.report-card p {
+    margin: 5px 0;
+}
+
+.report-image {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.resolve-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.resolve-button:hover {
+    background-color: #45a049;
+}

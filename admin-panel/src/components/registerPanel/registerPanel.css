@@ -1,0 +1,91 @@
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../assets/pictures/login-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.register-panel {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    color: white;
+    border-radius: 1rem;
+    background-size: cover;
+    border: 2px solid white;
+}
+
+.register-panel h2 {
+    margin: 2rem 0;
+}
+
+.register-panel form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 100%;
+    width: 80%;
+    gap: 1rem;
+}
+
+.register-panel__additions {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.register-panel input {
+    border:2px solid white;
+    height: 3rem;
+    background: transparent;
+    border-radius: 2rem;
+    color: white;
+    padding-left: 1rem;
+    font-size: 15px;
+}
+
+.register-panel input::placeholder {
+
+    color: white;
+    font-size: 15px;
+}
+
+.register-panel input:focus {
+    outline: none;
+}
+
+.register-panel p {
+    font-size: smaller;
+}
+
+.register-panel button {
+    border:2px solid white;
+    height: 3rem;
+    background: transparent;
+    border-radius: 2rem;
+    color: black;
+    background-color: white;
+    font-weight:bolder;
+    cursor: pointer;
+}
+
+.register-panel button:hover {
+    opacity: 0.8;
+}
+
+.register-panel__password-reminder{
+    cursor: pointer;
+}
+
+.register-panel__login-option {
+    cursor: pointer;
+}

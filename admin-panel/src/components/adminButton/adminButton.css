@@ -1,0 +1,43 @@
+
+.admin-button {
+    position: relative;
+    cursor: pointer;
+    background: none;
+    border: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    background-color: rgb(29, 34, 46);
+    transition: all 0.3s ease;
+}
+
+.admin-button.has-tooltip::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(23, 28, 37);
+    border: 2px solid rgb(41, 48, 65);
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.admin-button:hover {
+    transform: scale(1.1);
+}
+
+.admin-button.has-tooltip:hover::before {
+    opacity: 1;
+}
+  
